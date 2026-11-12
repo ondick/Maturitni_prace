@@ -15,12 +15,12 @@
         <Insets bottom="15.0" left="15.0" right="15.0" top="15.0"/>
     </padding>
 
-    <!-- Horní lišta s výběrem šifry a posunu -->
+    <!-- Horní lišta s výběrem šifry a klíče -->
     <HBox alignment="CENTER_LEFT" spacing="10.0">
         <Label text="Šifra:"/>
-        <ComboBox fx:id="cipherSelector" prefWidth="150.0"/>
-        <Label text="Posun (Caesar):"/>
-        <TextField fx:id="keyField" prefWidth="60.0" text="3"/>
+        <ComboBox fx:id="cipherSelector" prefWidth="170.0"/>
+        <Label text="Klíč / Posun:"/>
+        <TextField fx:id="keyField" prefWidth="130.0" promptText="Klíč nebo posun..." text="3"/>
     </HBox>
 
     <!-- Vstupní textové pole -->
